@@ -27,6 +27,10 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
+**truth table**
+
+![image](https://github.com/user-attachments/assets/38ccaa7f-c27c-4421-aa45-a2f18896603f)
+
 **Procedure**
 
 1.Type the program in Quartus software.
@@ -48,11 +52,6 @@ Developed by: THAVANESH B
 
 RegisterNumber:212224040352
 
-**TRUTH TABLE**
-
-![image](https://github.com/user-attachments/assets/38ccaa7f-c27c-4421-aa45-a2f18896603f)
-
-
 ```
 module exp11(out, clk,rstn);
 input clk,rstn;
@@ -69,13 +68,13 @@ endmodule
 
 **RTL LOGIC UP COUNTER**
 
-![image](https://github.com/user-attachments/assets/9772e5e7-5dd6-4912-ad61-31ee83e15b0c)
-
+![image](https://github.com/user-attachments/assets/1b01da84-bcd1-4ce5-baa9-8b46f6eea49a)
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
-![image](https://github.com/user-attachments/assets/8855956e-b63e-40fd-ae84-209411a5a2b8)
+![image](https://github.com/user-attachments/assets/6b45ba75-ffab-43d5-931b-573b8d3885f8)
+
 
 **RESULT**
 
-4 bit synchronous up counter and validate functionality.
+ hence 4 bit synchronous up counter and validate functionality.
